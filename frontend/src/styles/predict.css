@@ -1,0 +1,96 @@
+#Crime-predict {
+  background: url("../assets/crime/c/7.png"); /* Add your background image here */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.crime-predict-page {
+  text-align: center;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.crime-predict-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: rgb(159, 40, 13);
+}
+
+.crime-predict-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.crime-search-container {
+  margin-bottom: 10rem;
+
+  margin-top: 18rem;
+}
+
+.crime-search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; /* Optional: Limit the max width of the input */
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  background-color: rgb(159, 40, 13);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: rgb(190, 55, 30);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: rgb(159, 40, 13);
+}
+.error-message {
+  color: red;
+  margin-top: 20px;
+}
+
+.crime-map-container {
+  padding-top: 8rem;
+  margin-top: 40px;
+  position: relative;
+}
+
+.info-window {
+  font-size: 1rem;
+  color: #333;
+}
+
+.info-window h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: rgb(159, 40, 13);
+}

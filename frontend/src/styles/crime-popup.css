@@ -1,0 +1,47 @@
+.crime-popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .popup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .close-button {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .close-button:hover {
+    color: rgb(90, 5, 5);
+  }
+  
+  .crime-popup h2,
+  .crime-popup h3 {
+    margin-top: 0;
+  }
+  
+  .crime-popup ul {
+    padding-left: 20px;
+  }
+  
+  .crime-popup ul li {
+    margin-bottom: 5px;
+  }
+  

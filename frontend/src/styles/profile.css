@@ -1,0 +1,136 @@
+/* Container for the whole profile page */
+.profile-container {
+  padding: 40px;
+
+  background-color: #f9f9f9;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+/* Header section for profile details */
+.profile-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid rgb(159, 40, 13);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgb(159, 40, 13);
+  margin-right: 20px;
+}
+
+/* User info */
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-username {
+  font-size: 2rem;
+  color: rgb(159, 40, 13);
+  margin-bottom: 10px;
+}
+
+.profile-email {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.edit-button {
+  background-color: rgb(159, 40, 13);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.edit-button:hover {
+  background-color: rgba(159, 40, 13, 0.8);
+}
+
+/* Section for saved news */
+.saved-profile-news-section {
+  margin-top: 30px;
+}
+
+.section-profile-title {
+  font-size: 1.8rem;
+  color: rgb(159, 40, 13);
+  margin-bottom: 20px;
+}
+
+/* News list styling */
+.news-profile-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news-profile-item {
+  background-color: white;
+  padding: 20px;
+  border: 2px solid rgb(159, 40, 13);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-profile-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.news-profile-title {
+  font-size: 1.4rem;
+  color: rgb(159, 40, 13);
+  margin-bottom: 10px;
+}
+
+.news-profile-date {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.news-profile-body {
+  font-size: 1rem;
+  color: #333;
+}
+
+.no-saved-news {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+}
+
+.logout-button {
+  float: right;
+  background-color: rgb(159, 40, 13);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Loading state */
+.loading {
+  font-size: 1.5rem;
+  color: rgb(159, 40, 13);
+  text-align: center;
+}
