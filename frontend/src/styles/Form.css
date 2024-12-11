@@ -1,0 +1,86 @@
+.form-page-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.form-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 2rem;
+  color: rgb(159, 40, 13);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: rgb(159, 40, 13);
+  outline: none;
+}
+
+.photo-div {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(159, 40, 13);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: rgb(200, 50, 20);
+}
+
+.background-right {
+  flex: 1;
+  background-color: #fff;
+  width: 500px; /* تحديد عرض المربع */
+  height: 500px; /* تحديد ارتفاع المربع */
+  background: url("../assets/crime/L.png") no-repeat center center;
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: auto;
+}
+.forgot {
+  padding-top: 1rem;
+  color: rgb(159, 40, 13);
+}
+.create-acc {
+  padding-top: 0.2rem;
+  color: rgb(159, 40, 13);
+}
